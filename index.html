@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Peliculas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="ext/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/Cine.css">
+  <script src="/javascript/scriptCine.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+    
+  <nav class="dark">
+    <button class="botonEliminar" type="submit" onclick="DeleteCine(event)">ELIMINAR</button>
+    <button class="botonEditar" type="submit" onclick="GoToEditCine(event)">EDITAR</button>
+  </nav>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">CONOCES MAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MENUS</a>
+          </li>
+          <li class="nav-item">
+            <button class="boton" onclick="goToMovies()">
+              <a class="nav-link" id="nav-peliculas" >PELICULAS</a>
+            </button>
+          </li>
+       
+        
+        </ul>
+      </nav>
+
+    
+      
+     
+      
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/banner1.jpg" alt="Los Angeles" width="1100" height="500">
+      <div id="cineName" class="carousel-caption">
+      
+      </div> 
+      
+    </div>
+    <div class="carousel-item">
+      <img src="images/cinebanner.png" alt="Chicago" width="1100" height="500">
+     
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner2.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<br><br><br><br><br>
+<section class="portafolio">
+    <div class="contenedor">
+        <br>
+        <h2 class="titulo">SHOP</h2>
+     <br>
+        <div class="galeria-port">
+            
+            <div class="imagen-port">
+            <div class="card" style="width: rem;">
+                
+                <img class="card-img-top" src="/images/odysei.png" alt="Card image cap">
+                <div class="card-body">
+                    <br>
+                    <p class="nombreArticulo">2001: A SPACE ODYSSEY-ORIGINAL MOTION PICTURE SOUNDTRACK </p>
+                    <p class="precio">$40.00</p>
+                </div>
+              </div>
+            </div>
+           
+            <div class="imagen-port">
+                <div class="card" style="width: rem;">
+                    
+                    <img class="card-img-top" src="/images/loveletter.png" alt="Card image cap">
+                    <div class="card-body">
+                        <br>
+                      <p class="nombreArticulo">LOVE LETTER </p>
+                      <p class="precio">$5.99</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imagen-port">
+                <div class="card" style="width: rem;">
+                    
+                        <img class="card-img-top" src="/images/cheese.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="nombreArticulo">MANDY-CHEDDAR GOBLIN 252-PIECE PUZZLE LETTER </p>
+                        <p class="precio">$13.00</p>
+                     </div>
+                </div>
+            </div>
+                
+            <div class="imagen-port">
+                <div class="card" style="width: rem;">
+                    
+                        <img class="card-img-top" src="/images/pennywise.png" alt="Card image cap">
+                    <div class="card-body">
+                        <br>
+                        <p class="nombreArticulo">PENNYWISE TIKI MUG-ORANGE/RED</p>
+                        <p class="precio">$65.00</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br><br><br><br>
+    </div>
+</section>
+
+<footer>
+    <div class="contenedor-footer">
+       
+    </div>
+    <div id="departamento"></div>
+    
+</footer>
+</body>
+</html>

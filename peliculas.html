@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="ext/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/Peliculas.css">
+  <script src="/javascript/scriptPeliculas.js"></script>
+ 
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <form class="form-inline" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </nav>
+
+     
+      <section class="portafolio">
+        <br><br><h2 class="titulo">ESTRENOS RECIENTES</h2><br>
+        <div id="contenedorFetch" class="contenedor">
+            
+            <div id="galeriaFetch" class="galeria-port">
+              
+            </div>
+
+            <div  class="galeria-port">
+              <div class="imagen-port">
+             
+                <button class="boton" onclick="goToCreateMovie()">
+                <div class="card" style="width: rem;">
+                   
+                    
+                      <img class="card-img-top" src="images/Peliculas/agregar.jpg" alt="Card image cap"/>
+                 
+                    <div class="card-body">
+                      <p class="letras">AGREGAR</p>
+                    </div>
+                  </div>
+                </button>  
+              </div>
+  
+
+            </div>
+            
+        
+        </div>
+    </section>
+
+</body>
+</html>

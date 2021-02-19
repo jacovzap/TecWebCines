@@ -1,0 +1,92 @@
+@font-face{
+    font-family: fontShop;
+    src: url(/ext/fonts/arfelick_feather/Arfelick\ Feather.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divDetalle{
+    padding-top: 2%;
+    padding-left: 19%;
+    padding-right: 19%;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    float: left;
+    
+}
+
+.imageDiv{
+    width: 30%;
+    
+    margin-left: 35%;
+    margin-right: 35%;
+    overflow: hidden;
+    position: relative;
+   
+ 
+}
+
+.dark{
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.alineaDerecha{
+    display: inline-block;
+    padding-top: 50px;
+    vertical-align: top;
+    padding-bottom: 10px;
+  
+}
+
+.subtitulos{
+    font-weight: 700;
+}
+
+.contenido{
+    font-weight: 400;
+}
+
+.titulo{
+    font-size: 25px;
+    padding-left: 10px;
+    text-align: center  ;
+}
+
+
+footer{
+    background: #000000;
+    padding: 0px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.botonEliminar{
+    background-color: rgb(206, 48, 0);
+    color: rgb(255, 255, 255);
+    padding: 6px ;
+    border: none;
+    margin-right: 20px;
+    
+}
+
+.botonEditar{
+    background-color: rgb(187, 159, 3);
+    color: rgb(255, 255, 255);
+    padding-top: 6px ;
+    padding-bottom: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: none;
+    margin-right: 20px;
+    
+}
